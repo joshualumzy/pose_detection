@@ -5,5 +5,5 @@ if [ ! -d "venv" ]; then
   ./venv/bin/pip install -r requirements.txt
 fi
 
-echo "Running Pose Audio..."
+echo "Running Pose Detection..."
 ./venv/bin/python main.py
